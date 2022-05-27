@@ -1,0 +1,9 @@
+section{
+    display:flex ;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    background-image: url("./WhatsApp\ Image\ 2022-04-25\ at\ 18.06.24.jpeg");
+    background-size: cover;
+  }
+  

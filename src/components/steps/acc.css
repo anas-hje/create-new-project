@@ -1,0 +1,27 @@
+.label-file {
+    cursor: pointer;
+    color: #378b29; 
+    font-weight: bold;
+}
+.label-file:hover {
+    color: #74d680;
+}
+input{
+    border: none;
+  outline: none;
+  border-bottom: 1px solid #378b29;
+}
+textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #378b29;
+}
+
+.input-file {
+    display: none;
+}
+
+.input-file:hover{
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #237c8b 0%, #80ff72 74%);
+}
