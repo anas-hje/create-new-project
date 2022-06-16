@@ -1,3 +1,35 @@
+.divcfirst{
+    display: flex; 
+    flex-direction: column; 
+}
+.divsecond{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; 
+    flex: 1 1 0%; 
+    width: 100%; 
+}
+.divthird{
+    margin-top: 0.75rem; 
+    color: #6B7280; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 700; 
+    line-height: 2rem; 
+    text-transform: uppercase; 
+    height: 1.5rem; 
+}
+.divforth{
+    display: flex; 
+    border-bottom:2px #378b29 solid;
+    padding: 0.5rem; 
+    margin-top: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem; 
+    background-color: #ffffff; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #c2ccc638; 
+}
 .label-file {
     cursor: pointer;
     color: #378b29; 
@@ -8,8 +40,8 @@
 }
 input{
     border: none;
-  outline: none;
-  border-bottom: 1px solid #378b29;
+    outline: none;
+    border-bottom: 1px solid #378b29;
 }
 textarea{
     border: none;
